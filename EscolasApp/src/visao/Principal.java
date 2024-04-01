@@ -1,8 +1,6 @@
-
 package visao;
 
 import javax.swing.JFrame;
-
 
 public class Principal extends javax.swing.JFrame {
 
@@ -12,7 +10,6 @@ public class Principal extends javax.swing.JFrame {
         setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
 
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -115,7 +112,6 @@ public class Principal extends javax.swing.JFrame {
         jDesktop.add(tela);
         tela.setVisible(true);
     }//GEN-LAST:event_jmiAlunoActionPerformed
-
     
     public static void main(String args[]) {
         
@@ -136,15 +132,13 @@ public class Principal extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         
-
-        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Principal().setVisible(true);
             }
         });
     }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktop;
     private javax.swing.JPopupMenu.Separator jSeparator1;
